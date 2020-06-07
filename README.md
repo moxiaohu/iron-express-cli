@@ -3,11 +3,7 @@ iron
 
 iron cli
 
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/iron.svg)](https://npmjs.org/package/iron)
-[![CircleCI](https://circleci.com/gh/projects/iron/tree/master.svg?style=shield)](https://circleci.com/gh/projects/iron/tree/master)
-[![Downloads/week](https://img.shields.io/npm/dw/iron.svg)](https://npmjs.org/package/iron)
-[![License](https://img.shields.io/npm/l/iron.svg)](https://github.com/projects/iron/blob/master/package.json)
+Command tool for framework iron-express (https://github.com/sfeir-open-source/iron-express)
 
 <!-- toc -->
 * [Usage](#usage)
@@ -29,16 +25,16 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`iron create [FILE]`](#iron-create-file)
+* [`iron create`](#iron-create-file)
 * [`iron help [COMMAND]`](#iron-help-command)
 
-## `iron create [FILE]`
+## `iron create`
 
-Init a new project
+Create a new project
 
 ```
 USAGE
-  $ iron create [FILE]
+  $ iron create -n name
 
 OPTIONS
   -h, --help       show CLI help
@@ -47,8 +43,6 @@ OPTIONS
 EXAMPLE
   $ iron new -n projectname
 ```
-
-_See code: [src/commands/create.ts](https://github.com/projects/iron/blob/v0.0.3/src/commands/create.ts)_
 
 ## `iron help [COMMAND]`
 
@@ -64,6 +58,4 @@ ARGUMENTS
 OPTIONS
   --all  see all commands in CLI
 ```
-
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.3/src/commands/help.ts)_
 <!-- commandsstop -->
